@@ -1,3 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #E5E5E5;
+}
+
 .registration{
     padding: 100px 0;
 }
@@ -38,4 +46,331 @@
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
     color: #11175d94;
+}
+.have_account_tag{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    color: #000000;
+    width: 18%;
+    margin-top: 20px;
+    margin-left: 40%;
+}
+.have_account_span{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    color: #EA6C00;
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.MuiLoadingButton-root{
+    color: green !important;
+    background: transparent !important;
+    padding: 25px 0 !important;
+}
+.MuiLoadingButton-loadingIndicator{
+    color: #086FA4 !important;
+}
+.reg_error{
+    width: 10%;
+    margin-left: 40%;
+}
+
+/* ================== profile page =============== */
+.profile{
+    width: 100%;
+}
+.profilediv{
+    margin-bottom: 50px;
+}
+.cover_img{
+    width: 100%;
+    background-position: center;
+    object-fit: cover;
+}
+.profile_main{
+    width: 170px;
+    height: 170px;
+    background-color: #ffff;
+    border: 8px solid #ffff;
+    border-radius: 50%;
+    position: absolute;
+    top: 200px;
+    left: 390px;
+}
+.profile_img{
+    width: 100%;
+    height: 100%;
+}
+.profileInfo{
+    padding-top: 20px;
+    margin-left: 20%;
+    width: 70%;
+    height: 100px;
+}
+.pro_hed{
+    display: flex;
+}
+.profile_name{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+}
+.profile_icon_linkdin{
+    color: #D8C281;
+    font-size: 25px;
+}
+.profile_sent_icon{
+    color: #0275B1;
+    font-size: 15px;
+    margin-left: 400px;
+}
+.pro_ptag{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #181818;
+}
+.profilediv{
+    width: 100%;
+    height: 450px;
+    background-color: #ffff;
+}
+.Pinfo{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #181818;
+    padding: 10px 0;
+}
+.MuiButtonBase-root{
+    background-color: #0077B5 !important;
+}
+.sectionBtn{
+    display: flex;
+}
+/* .threebtn:hover{
+    padding: 15px 80px !important; 
+    border-radius: 8px 8px 0px 0px !important;
+    background-color: #0077B5 !important;
+    color: #ffff !important;
+} */
+/* .threebtn:active{
+    padding: 15px 80px !important; 
+    border-radius: 8px 8px 0px 0px !important;
+    background-color: #0077B5 !important;
+    color: #ffff !important;
+} */
+
+#threebtn{
+    padding: 15px 80px !important; 
+    background-color: #ffff !important;
+    color: #000000 !important;
+}
+
+.about_section{
+    margin-top: 50px;
+    padding: 50px 0;
+    background-color: #ffff;
+    padding-left: 20px;
+}
+.about_title{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+}
+p{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #181818;
+    padding: 10px 0;
+}
+span{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #0077B5;
+}
+.project_section{
+    margin-top: 50px;
+    padding: 50px 0;
+    background-color: #ffff;
+    padding-left: 20px;
+}
+.project_title{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+}
+.project_span{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #747474;
+    padding-left: 10px;
+}
+.project_img{
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+.projectimg{
+    width: 31.5%;
+}
+.ex_section{
+    margin-top: 50px;
+    padding: 50px 0;
+    background-color: #ffff;
+    padding-left: 20px;
+}
+.ex_title{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+}
+.ex_div{
+    display: flex;
+    margin: 40px 0;
+    border-bottom: 2px solid #F4F4F4;
+}
+.ex_icon{
+    width: 54px;
+    height: 54px;
+    padding-right: 20px;
+}
+.ex_div h1{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+.ex_div p{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding-right: 50px;
+}
+.ex-p-one{
+    display: flex;
+}
+.ex-p-two{
+    display: flex;
+}
+.ex-p-one span{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #181818;
+    margin-top: 10px;
+}
+.ex-p-two span{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+}
+/* ========= Home ============= */
+
+.newpost{
+    margin-top: 30px;
+    width: 100%;
+    padding: 30px 0;
+    background: #ffff;
+}
+.post_text{
+    font-family: 'Barlow', sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    margin-left: 20px !important;
+}
+.MuiTextField-root{
+    font-family: 'Barlow', sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    margin-left: 20px !important;   
+}
+.css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused{
+    color: #000000 !important;
+}
+.css-v4u5dn-MuiInputBase-root-MuiInput-root:after{
+    border-bottom: #000000 !important;
+}
+/* .input{
+    border-bottom: red !important;
+} */
+.css-v4u5dn-MuiInputBase-root-MuiInput-root:before{
+    border-bottom: red !important;
+}
+.text_field{
+    margin-top: 10px;
+    display: flex;
+}
+.send_icon{
+    background: #0077B5;
+    color: #ffff;
+}
+.post_icon{
+    padding-left: 850px;
+    margin-top: 10px
+}
+.picture_icon{
+    cursor: pointer;
+    font-size: 35px;
+    padding-right: 10px;
+}
+.send_icon{
+    cursor: pointer;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 3px;
+    margin-bottom: 3px;
+}
+.threedot_icon{
+    display: flex;
+    justify-content: end;
+    margin-right: 10px;
+    color: #000000;
+}
+.parson{
+    margin-left: 20px;
+    display: flex;
+    gap: 10px;
+}
+.parson_img{
+    width: 100px;
+    height: 100px;
+}
+.parson_name{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.parson_title{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.caption{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.post_img{
+    width: 95%;
+    margin: 20px 0px 0px 25px;
+}
+.post_text{
+    margin-top: 20px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400 !important;
+    font-size: 25px !important;
+    width: 95%;
+    padding-left: 5px;
+    line-height: 2;
+    background: #E5E5E5;
+    border-radius: 8px;
 }
