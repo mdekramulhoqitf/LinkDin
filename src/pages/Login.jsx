@@ -7,7 +7,8 @@ import LoadingButton from '@mui/lab/LoadingButton';
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 import { json, useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
-import { userData } from '../features/counter/counterSlice';
+// import { userData } from '../features/counter/counterSlice';
+import { userdata } from '../features/counter/counterSlice';
 
 
 
@@ -47,9 +48,9 @@ const Login = () => {
 
     signInWithEmailAndPassword(auth,email,password).then((user)=>{
 
-      dispatch(userData(user.user))
+      dispatch(userdata(user.user))
 
-      localStorage.setItem('user',JSON.stringify(user.user))
+      localStorage.setItem("user",JSON.stringify(user.user));
 
       setValues({
         email: "",
